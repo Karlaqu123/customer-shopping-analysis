@@ -114,17 +114,6 @@ Built an interactive dashboard to visualize business insights.
 
 ---
 
-## 📊 Dashboard Preview
-
-_Add screenshots of your Power BI dashboard here._
-
-```md
-<img width="1709" height="928" alt="image" src="https://github.com/user-attachments/assets/c6981d92-b38a-44e6-a3fa-ec53084f734c" />
-
-)
-
----
-
 ## 📝 Report
 
 A detailed analytical report was created summarizing:
@@ -136,7 +125,7 @@ A detailed analytical report was created summarizing:
 - Dashboard insights
 - Recommendations
 
-File: `Customer_Shopping_Behavior_Report.pdf`
+File: `project_summary.docx`
 
 ---
 
@@ -154,7 +143,7 @@ A presentation was developed using **Gamma** to communicate the project story an
 - Business recommendations
 - Conclusion
 
-File: `Customer_Shopping_Behavior_Presentation.pdf`
+File: `customer_shopping_behavior_analysis.pptx`
 
 ---
 
@@ -206,7 +195,7 @@ Through this project, I strengthened my ability to:
 **Karl Muñoz**
 
 - GitHub: https://github.com/Karlaqu123
-- LinkedIn: *Add your LinkedIn profile here*
+- LinkedIn: *www.linkedin.com/in/muñoz-karl-vincent-7b8247394*
 
 ---
 
