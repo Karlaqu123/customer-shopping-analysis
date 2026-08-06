@@ -119,7 +119,8 @@ Built an interactive dashboard to visualize business insights.
 _Add screenshots of your Power BI dashboard here._
 
 ```md
-![Dashboard](<img width="1709" height="928" alt="image" src="https://github.com/user-attachments/assets/08b6546d-96b5-4939-a334-d47f3bddd4d8" />
+<img width="1709" height="928" alt="image" src="https://github.com/user-attachments/assets/c6981d92-b38a-44e6-a3fa-ec53084f734c" />
+
 )
 ```
 
