@@ -22,20 +22,35 @@ The project covers the complete analytics pipeline—from loading the dataset in
 
 ## 📂 Dataset
 
-The dataset contains customer shopping transactions and includes fields such as:
+The dataset contains customer shopping transactions with the following fields:
 
-- Customer ID
-- Gender
-- Age
-- Category
-- Item Purchased
-- Purchase Amount (USD)
-- Payment Method
-- Frequency of Purchases
-- Discount Applied
-- Promo Code Used
-- Season
-- Review Rating
+| Column | Description |
+|--------|-------------|
+| `customer_id` | Unique identifier for each customer |
+| `age` | Customer's age |
+| `gender` | Customer's gender (Male/Female) |
+| `item_purchased` | Product name |
+| `category` | Product category (Clothing, Footwear, Accessories, Outerwear) |
+| `purchase_amount` | Transaction value in USD |
+| `location` | US state where purchase was made |
+| `size` | Product size (S, M, L, XL) |
+| `color` | Product color |
+| `season` | Season of purchase (Spring, Summer, Fall, Winter) |
+| `review_rating` | Customer rating (2.5 - 5.0) |
+| `subscription_status` | Whether customer has subscription (Yes/No) |
+| `shipping_type` | Shipping method used |
+| `discount_applied` | Whether discount was applied (Yes/No) |
+| `previous_purchases` | Number of prior purchases |
+| `payment_method` | Payment type (Credit Card, PayPal, Venmo, etc.) |
+| `frequency_of_purchases` | Purchase frequency pattern |
+
+**Derived/Engineered Columns:**
+| Column | Description |
+|--------|-------------|
+| `age_group` | Categorized age ranges (e.g., 18-25, 26-35, etc.) |
+| `purchase_frequency_days` | Numeric representation of purchase frequency |
+
+**Total Records:** 3,900 transactions
 
 **Source:** Public customer shopping behavior dataset
 
@@ -45,9 +60,7 @@ The dataset contains customer shopping transactions and includes fields such as:
 
 | Tool | Purpose |
 |------|---------|
-| **Python** | Data loading, EDA, and cleaning |
-| **Pandas** | Data manipulation |
-| **Matplotlib / Seaborn** | Data visualization during EDA |
+| **Python (pandas)** | Data loading, EDA, and cleaning |
 | **PostgreSQL** | Data storage and SQL analysis |
 | **Power BI** | Interactive dashboard and KPI visualization |
 | **Microsoft Word / PDF** | Analytical report |
