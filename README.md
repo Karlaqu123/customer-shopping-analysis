@@ -122,19 +122,6 @@ _Add screenshots of your Power BI dashboard here._
 <img width="1709" height="928" alt="image" src="https://github.com/user-attachments/assets/c6981d92-b38a-44e6-a3fa-ec53084f734c" />
 
 )
-```
-
----
-
-## 📈 Key Results
-
-The analysis revealed several important insights:
-
-- A small group of customers contributes a significant share of total revenue.
-- Certain product categories consistently outperform others.
-- Seasonal trends influence purchasing behavior.
-- Discount usage affects average purchase value.
-- Repeat customers tend to spend more than one-time buyers.
 
 ---
 
